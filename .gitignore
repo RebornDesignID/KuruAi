@@ -1,0 +1,20 @@
+# ── Sensitive Config ─────────────────────────────
+config.php
+
+# ── Generated / User Data ────────────────────────
+data/images/*
+!data/images/.htaccess
+
+# ── Dev Utilities ────────────────────────────────
+test_api.php
+
+# ── OS / Editor ──────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# ── PHP ──────────────────────────────────────────
+*.env
+vendor/
